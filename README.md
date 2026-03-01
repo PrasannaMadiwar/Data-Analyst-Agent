@@ -5,23 +5,23 @@ It reads a CSV, performs profiling, cleaning, feature encoding, visualization, a
 
 ## 🚀 Features
 
-📝 CSV Upload & Summary
-Automatically reads and summarizes structure, data types, missing values, and statistics.
+### 📝 CSV Upload & Summary
+- Automatically reads and summarizes structure, data types, missing values, and statistics.
 
-🔍 Data Cleaning & Encoding
-Handles missing values and encodes categorical variables to prepare for analysis.
+### 🔍 Data Cleaning & Encoding
+- Handles missing values and encodes categorical variables to prepare for analysis.
 
-📈 Automated Visualization
-Generates plots saved to downloaded_plots/ — includes histograms, correlations, bar charts, etc.
+### 📈 Automated Visualization
+- Generates plots saved to downloaded_plots/ — includes histograms, correlations, bar charts, etc.
 
-🤖 LLM-Driven Workflow
-All steps are orchestrated by a LangGraph workflow, leveraging Python execution for deep analysis.
+### 🤖 LLM-Driven Workflow
+- All steps are orchestrated by a LangGraph workflow, leveraging Python execution for deep analysis.
 
-📦 Streamlit Frontend
-Friendly UI to upload CSV, run workflow, and display both analysis text and generated charts.
+### 📦 Streamlit Frontend
+- Friendly UI to upload CSV, run workflow, and display both analysis text and generated charts.
 
-📄 Markdown Report Output
-Final analysis is rendered as formatted markdown for readability and export.
+### 📄 Markdown Report Output
+- Final analysis is rendered as formatted markdown for readability and export.
 
 ## 📁 Repository Structure
 ```
@@ -61,25 +61,25 @@ streamlit run frontend.py
 
 ## 📌 How it Works
 
-Upload CSV file using the Streamlit interface.
+- Upload CSV file using the Streamlit interface.
 
-The frontend calls the workflow:
+- The frontend calls the workflow:
 
-Uploads CSV to your sandbox (Daytona/Agents)
+- Uploads CSV to your sandbox (Daytona/Agents)
 
-Summarizes dataset
+- Summarizes dataset
 
-Cleans nulls & encodes categories
+- Cleans nulls & encodes categories
 
-Creates explanatory plots
+- Creates explanatory plots
 
-Produces final analysis text
+- Produces final analysis text
 
-Results Display
+- Results Display
 
-Markdown summary of the dataset & insights
+- Markdown summary of the dataset & insights
 
-Rendered plot images from downloaded_plots/
+- Rendered plot images from downloaded_plots/
 
 ## 🔄 Workflow Graph
 

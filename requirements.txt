@@ -1,0 +1,8 @@
+langchain-groq
+langgraph
+daytona 
+streamlit
+python 
+langchain_core
+pydantic
+typing
